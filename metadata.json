@@ -1,0 +1,6 @@
+{
+  "name": "Safu.Dev Portfolio",
+  "description": "A highly polished, interactive portfolio website for Safu Dev, a Full Stack Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
