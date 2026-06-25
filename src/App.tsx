@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 import { BlogPost } from './types';
 import { USER_INFO } from './data';
 import SplashCursor from './components/SplashCursor';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<string>('hero');
@@ -60,6 +61,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-black text-neutral-100 font-sans selection:bg-blue-400 selection:text-black">
+      <Analytics />
       {/* global mouse fluid splash cursor */}
       <SplashCursor />
 
